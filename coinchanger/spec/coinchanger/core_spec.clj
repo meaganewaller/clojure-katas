@@ -14,6 +14,15 @@
           
           (it "5 is [5]"
               (should= [5] (changer 5)))
+
+          (it "6 is [5, 1]"
+              (should= [5, 1] (changer 6)))
+
+          (it "10 is [10]"
+              (should= [10] (changer 10)))
+
+          (it "15 is [10, 5]"
+              (should= [10, 5] (changer 15)))
           
           )
 

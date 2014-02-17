@@ -12,5 +12,8 @@
           (it "2 is [1,1]"
               (should= [1, 1] (changer 2))) 
           
+          (it "5 is [5]"
+              (should= [5] (changer 5)))
+          
           )
 

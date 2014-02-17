@@ -15,6 +15,15 @@
           (it "5 is buzz"
               (should= "buzz" (fizzbuzz 5)))
 
+          (it "6 is fizz"
+              (should= "fizz" (fizzbuzz 6)))
+          
+          (it "10 is buzz"
+              (should= "buzz" (fizzbuzz 10)))
+
+          (it "15 is fizzbuzz"
+              (should= "fizzbuzz" (fizzbuzz 15)))
+
 
 
 
